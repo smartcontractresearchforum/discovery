@@ -16,7 +16,7 @@ body:
       label: ◾Title◾      
       placeholder: Name of Event
     validations:
-      required: true      
+#      required: true      
   
   - type: input
     id: start-time
@@ -24,7 +24,7 @@ body:
       label: Start Time◾
       description: Pacific Standard Time (PST/PDT)
     validations:
-      required: true
+#      required: true
 
   - type: input
     id: cadence
@@ -33,7 +33,7 @@ body:
       description: How often does this meeting occur? 
       placeholder: First Monday of the month. Once a month. Etc.
     validations:
-      required: true
+#      required: true
 
   - type: input
     id: duration
@@ -41,7 +41,7 @@ body:
       label: Duration
       description: How long is this event?      
     validations:
-      required: true      
+#      required: true      
 
   - type: input
     id: location
