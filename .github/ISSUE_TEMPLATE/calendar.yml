@@ -13,8 +13,8 @@ body:
   - type: input
     id: title
     attributes:
-      label: ◾Title◾
-      description: Name of event
+      label: ◾Title◾      
+      placeholder: Name of Event
     validations:
       required: true      
   
@@ -31,7 +31,7 @@ body:
     attributes:
       label: Cadence
       description: How often does this meeting occur? 
-      placeholder: First Monday of the month.
+      placeholder: First Monday of the month. Once a month. Etc.
     validations:
       required: true
 
@@ -53,4 +53,3 @@ body:
     id: description
     attributes:
       label: ◾Description◾
-      description: Describe the event. 
