@@ -46,8 +46,8 @@ body:
   - type: input
     id: location
     attributes:
-#      label: Location
-#      description: What is the URL of the meeting space?
+      label: Location
+      description: What is the URL of the meeting space?
 
   - type: textarea
     id: description
