@@ -1,16 +1,24 @@
 name: New Issue to Project Board
 
-issues:
-  types:
-    - [opened]
+on:
+  issues:
+    types: [opened]
 
 jobs:
-  add-to-project:
-    name: Add issue to Calendar Project Board
+  echo-test:
     runs-on: ubuntu-latest
     if: contains( github.event.issue.title, '📅')
-    steps:    
-      - uses: actions/add-to-project@main
-        with:
-          project-url: https://github.com/orgs/scrf-test/projects/30
-          github-token: ${{ secrets.DISCOVERY_ISSUE_PB_PAT }}         
+    steps:
+      - name: echo step
+        run: echo 'test echo'
+
+#jobs:
+#  add-to-project:
+#    name: Add issue to Calendar Project Board
+#    runs-on: ubuntu-latest
+#    if: contains( github.event.issue.title, '📅')
+#    steps:    
+#      - uses: actions/add-to-project@main
+#        with:
+#          project-url: https://github.com/orgs/scrf-test/projects/30
+#          github-token: ${{ secrets.DISCOVERY_ISSUE_PB_PAT }}         
