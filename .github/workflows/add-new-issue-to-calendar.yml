@@ -2,13 +2,12 @@ name: New Issue to Project Board
 
 issues:
   types:
-    - opened
+    - [opened]
 
 jobs:
   add-to-project:
     name: Add issue to Calendar Project Board
     runs-on: ubuntu-latest
-    # route to calendar if the issue is a calendar type
     if: contains( github.event.issue.title, '📅')
     steps:    
       - uses: actions/add-to-project@main
