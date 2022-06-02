@@ -1,5 +1,5 @@
 ---
-name: "\U0001F4C5 Add New Event"
+name: "\U0001F4C5 Add New Event - md"
 about: Add an event to the SCRF calendar
 title: ''
 labels: ''
