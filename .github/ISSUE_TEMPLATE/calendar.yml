@@ -10,8 +10,47 @@ body:
       value: |
         Thanks for taking the time to fill out this new user form!
 
-  - type: textarea
-    id: text
+  - type: input
+    id: title
     attributes:
-      label: Issue Text
-      description: text goes here!
+      label: ◾Title◾
+      description: Name of event
+    validations:
+      required: true      
+  
+  - type: input
+    id: start-time
+    attributes:
+      label: Start Time◾
+      description: Pacific Standard Time (PST/PDT)
+    validations:
+      required: true
+
+  - type: input
+    id: cadence
+    attributes:
+      label: Cadence
+      description: How often does this meeting occur? 
+      placeholder: First Monday of the month.
+    validations:
+      required: true
+
+  - type: input
+    id: duration
+    attributes:
+      label: Duration
+      description: How long is this event?      
+    validations:
+      required: true      
+
+  - type: input
+    id: location
+    attributes:
+      label: Location
+      description: What is the URL of the meeting space?
+
+  - type: textarea
+    id: description
+    attributes:
+      label: ◾Description◾
+      description: Describe the event. 
