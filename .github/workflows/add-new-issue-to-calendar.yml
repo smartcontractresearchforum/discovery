@@ -5,20 +5,11 @@ on:
     types: [opened]
 
 jobs:
-  echo-test:
+  add-to-calendar:    
     runs-on: ubuntu-latest
     if: contains( github.event.issue.title, '📅')
-    steps:
-      - name: echo step
-        run: echo 'test echo'
-
-#jobs:
-#  add-to-project:
-#    name: Add issue to Calendar Project Board
-#    runs-on: ubuntu-latest
-#    if: contains( github.event.issue.title, '📅')
-#    steps:    
-#      - uses: actions/add-to-project@main
-#        with:
-#          project-url: https://github.com/orgs/scrf-test/projects/30
-#          github-token: ${{ secrets.DISCOVERY_ISSUE_PB_PAT }}         
+    steps:    
+      - uses: actions/add-to-project@main
+        with:
+          project-url: https://github.com/orgs/scrf-test/projects/30
+          github-token: ${{ secrets.DISCOVERY_ISSUE_PB_PAT }}         
