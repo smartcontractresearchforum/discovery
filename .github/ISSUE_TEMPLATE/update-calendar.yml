@@ -1,0 +1,20 @@
+name: 📅 Update Calendar Event
+description: Change something about an existing calendar.
+title: "📅 - 📅 Update Calendar Event"
+labels: []
+assignees:
+  - SirAh0
+body:
+  - type: input
+    id: event-name
+    attributes:
+      label: Event Name
+    validations:
+      required: true      
+  
+  - type: textarea
+    id: change
+    attributes:
+      label: Change
+    validations:
+      required: true
