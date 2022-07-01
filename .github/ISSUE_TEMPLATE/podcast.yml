@@ -1,0 +1,115 @@
+name: 📅 Add New Podcast
+description: Add an event to the SCRF calendar
+title: "📅 - New Event"
+assignees:
+  - SirAh0
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ### Proposal Stage
+        Please see [Episode Naming Convention](https://docs.google.com/document/d/1y67WcALXTBOXYoqNbW6LPHAz4-ZUq91ZOVtj7DujLUc/edit?usp=sharing)
+  
+  - type: input
+    id: episode-name
+    attributes:
+      label: ◾Episode Name
+    validations:
+      required: true      
+      
+  - type: dropdown
+    id: type    
+    attributes:
+      label: Are you proposing a mini-series or a one-off episode?
+      options:
+        - Mini-series
+        - One-off episode
+    validations:
+      required: true              
+
+  - type: textarea
+    id: mini-series-info
+    attributes:
+      label: ◾Mini-series Info◾
+      description: If it is a mini-series, add an overall mini-series topic here and submit a proposal for each individual episode
+  
+  - type: textarea
+    id: mini-series-info
+    attributes:
+      label: ◾Short description◾
+      description: Why is this episode relevant
+
+  - type: textarea
+    id: potential-questions
+    attributes:
+      label: ◾Potential Questions◾
+      
+  - type: textarea
+    id: guest-names
+    attributes:
+      label: ◾Guest Names◾
+
+  - type: textarea
+    id: host-names
+    attributes:
+      label: ◾Host Names◾
+
+  - type: textarea
+    id: pm
+    attributes:
+      label: ◾PM◾
+
+  - type: dropdown
+    id: approved    
+    attributes:
+      label: Approved?
+      options:
+        - ❌
+        - ✔️
+    validations:
+      required: true    
+
+  - type: markdown
+    attributes:
+      value: |
+        **Backlog**
+        - [ ] Gauge interest with prospective guests by introducing and sending potential topics
+        - [ ] Send invite w/checklist and questions
+        - [ ] Check "Preparing for the interview" checklist
+        - [ ] Confirm with all guests if the topic/question list looks good
+        - [ ] Schedule the recording date
+
+        **Scheduled**
+        - [ ] Check the "Getting ready to record checklist"
+        - [ ] Record
+        - [ ] Upload files for post
+
+        **In progress**
+        - [ ] Edit
+        - [ ] Export final video/save to drive
+        - [ ] Export final audio/save to drive
+        - [ ] Write Show Notes
+        - [ ] Write Forum Post
+        - [ ] Pull transcript from PP
+        - [ ] Work on the transcript
+        - [ ] Review transcript
+
+        **Content Review**
+        - [ ] Review the episode
+        - [ ] Write Engagement/Social post
+
+        **Publishing**
+        - [ ] Upload to YT
+        - [ ] Upload to Spreaker
+        - [ ] Post Forum Post
+        - [ ] Upload transcript to HackMD
+        - [ ] Advertise
+
+        **Archive**
+
+
+
+
+
+
+
