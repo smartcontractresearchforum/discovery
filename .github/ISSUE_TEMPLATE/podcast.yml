@@ -34,7 +34,7 @@ body:
       description: If it is a mini-series, add an overall mini-series topic here and submit a proposal for each individual episode
   
   - type: textarea
-    id: mini-series-info
+    id: short-description
     attributes:
       label: ◾Short description◾
       description: Why is this episode relevant
