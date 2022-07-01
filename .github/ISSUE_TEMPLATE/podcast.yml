@@ -1,6 +1,6 @@
-name: 📅 Add New Podcast
+name: 📼 Add New Podcast
 description: Add an event to the SCRF calendar
-title: "📅 - New Event"
+title: "📼 - New Event"
 assignees:
   - SirAh0
 body:
