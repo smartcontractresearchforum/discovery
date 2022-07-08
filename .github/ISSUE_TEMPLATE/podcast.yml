@@ -108,12 +108,12 @@ body:
         - type: textarea
           id: yt link
           attributes:
-          label: ◾YouTube public link◾
+           label: ◾YouTube public link◾
           
         - type: textarea
           id: sp link
           attributes:
-          label: ◾Spreaker public link◾
+            label: ◾Spreaker public link◾
 
 
 
