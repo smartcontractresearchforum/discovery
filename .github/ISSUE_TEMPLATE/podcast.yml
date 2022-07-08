@@ -1,6 +1,6 @@
 name: 📼 Add New Podcast
 description: Add proposal for a SCRF Interviews Podcast episode
-title: "📼 - New Event"
+title: "📼 - Episode Name"
 assignees:
   - eleventh19
   - ivanplazacic
@@ -9,14 +9,7 @@ body:
     attributes:
       value: |
         ### Proposal Stage
-        Please see [Episode Naming Convention](https://docs.google.com/document/d/1y67WcALXTBOXYoqNbW6LPHAz4-ZUq91ZOVtj7DujLUc/edit?usp=sharing)
-  
-  - type: input
-    id: episode-name
-    attributes:
-      label: ◾Episode Name
-    validations:
-      required: true      
+        Please see [Episode Naming Convention](https://docs.google.com/document/d/1y67WcALXTBOXYoqNbW6LPHAz4-ZUq91ZOVtj7DujLUc/edit?usp=sharing)   
       
   - type: dropdown
     id: type    
@@ -108,12 +101,12 @@ body:
         - type: textarea
           id: yt link
           attributes:
-           label: ◾YouTube public link◾
+           label: YouTube public link
           
         - type: textarea
           id: sp link
           attributes:
-            label: ◾Spreaker public link◾
+            label: Spreaker public link
 
 
 
