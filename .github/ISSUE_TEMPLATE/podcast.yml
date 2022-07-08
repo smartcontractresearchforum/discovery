@@ -106,13 +106,13 @@ body:
 
         **Archive**
         - type: textarea
-        id: yt link
-        attributes:
+          id: yt link
+          attributes:
           label: ◾YouTube public link◾
           
         - type: textarea
-        id: sp link
-        attributes:
+          id: sp link
+          attributes:
           label: ◾Spreaker public link◾
 
 
