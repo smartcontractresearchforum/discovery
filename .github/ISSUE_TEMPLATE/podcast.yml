@@ -57,7 +57,8 @@ body:
   - type: dropdown
     id: approved    
     attributes:
-      label: Approved? (if unsure, set to Pending)
+      label: Approved?
+      description: If unsure, set to Pending
       options:
         - ⏳ - Pending
         - ❌ - No
