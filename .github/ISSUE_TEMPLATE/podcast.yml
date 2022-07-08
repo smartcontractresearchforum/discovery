@@ -8,7 +8,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        ◾Proposal Stage◾
+        ### ◾Proposal Stage◾
         Please see [Episode Naming Convention](https://docs.google.com/document/d/1y67WcALXTBOXYoqNbW6LPHAz4-ZUq91ZOVtj7DujLUc/edit?usp=sharing)   
       
   - type: dropdown
@@ -30,28 +30,28 @@ body:
   - type: textarea
     id: short-description
     attributes:
-      label: ◾Short description◾
+      label: Short description
       description: Why is this episode relevant
 
   - type: textarea
     id: potential-questions
     attributes:
-      label: ◾Potential Questions◾
+      label: Potential Questions
       
   - type: textarea
     id: guest-names
     attributes:
-      label: ◾Guest Names◾
+      label: Guest Names
 
   - type: textarea
     id: host-names
     attributes:
-      label: ◾Host Names◾
+      label: Host Names
 
   - type: textarea
     id: pm
     attributes:
-      label: ◾Project Manager (please remember to assign yourself to the issue)◾
+      label: Project Manager (please remember to assign yourself to the issue)
 
   - type: dropdown
     id: approved    
