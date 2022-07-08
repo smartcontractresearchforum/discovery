@@ -64,7 +64,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        **Backlog**
+        ### Backlog
         - [ ] Gauge interest with prospective guests by introducing and sending potential topics
         - [ ] Send invite w/checklist and questions
         - [ ] Check "Preparing for the interview" checklist
