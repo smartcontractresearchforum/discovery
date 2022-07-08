@@ -105,12 +105,12 @@ body:
         - [ ] Advertise
 
         **Archive**
-      - type: textarea
+        - type: textarea
         id: yt link
         attributes:
           label: ◾YouTube public link◾
           
-      - type: textarea
+       - type: textarea
         id: sp link
         attributes:
           label: ◾Spreaker public link◾
