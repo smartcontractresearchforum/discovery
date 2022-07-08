@@ -8,7 +8,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        ### Proposal Stage
+        ◾Proposal Stage◾
         Please see [Episode Naming Convention](https://docs.google.com/document/d/1y67WcALXTBOXYoqNbW6LPHAz4-ZUq91ZOVtj7DujLUc/edit?usp=sharing)   
       
   - type: dropdown
@@ -24,7 +24,7 @@ body:
   - type: textarea
     id: mini-series-info
     attributes:
-      label: ◾Mini-series Info◾
+      label: Mini-series Info
       description: If it is a mini-series, add an overall mini-series topic here and submit a proposal for each individual episode
   
   - type: textarea
@@ -71,12 +71,12 @@ body:
         - [ ] Confirm with all guests if the topic/question list looks good
         - [ ] Schedule the recording date
 
-        **Scheduled**
+        ### Scheduled
         - [ ] Check the "Getting ready to record checklist"
         - [ ] Record
         - [ ] Upload files for post
 
-        **In progress**
+        ### In progress
         - [ ] Edit
         - [ ] Export final video/save to drive
         - [ ] Export final audio/save to drive
@@ -86,18 +86,18 @@ body:
         - [ ] Work on the transcript
         - [ ] Review transcript
 
-        **Content Review**
+        ###  Content Review
         - [ ] Review the episode
         - [ ] Write Engagement/Social post
 
-        **Publishing**
+        ### Publishing
         - [ ] Upload to YT
         - [ ] Upload to Spreaker
         - [ ] Post Forum Post
         - [ ] Upload transcript to HackMD
         - [ ] Advertise
 
-        **Archive**
+        ### Archive
          - type: textarea
           id: yt link
           attributes:
