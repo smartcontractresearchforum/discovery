@@ -64,19 +64,19 @@ body:
   - type: markdown
     attributes:
       value: |
-        ### Backlog
+        ### ◾Backlog◾
         - [ ] Gauge interest with prospective guests by introducing and sending potential topics
         - [ ] Send invite w/checklist and questions
         - [ ] Check "Preparing for the interview" checklist
         - [ ] Confirm with all guests if the topic/question list looks good
         - [ ] Schedule the recording date
 
-        ### Scheduled
+        ### ◾Scheduled◾
         - [ ] Check the "Getting ready to record checklist"
         - [ ] Record
         - [ ] Upload files for post
 
-        ### In progress
+        ### ◾In progress◾
         - [ ] Edit
         - [ ] Export final video/save to drive
         - [ ] Export final audio/save to drive
@@ -86,18 +86,18 @@ body:
         - [ ] Work on the transcript
         - [ ] Review transcript
 
-        ###  Content Review
+        ###  ◾Content Review◾
         - [ ] Review the episode
         - [ ] Write Engagement/Social post
 
-        ### Publishing
+        ### ◾Publishing◾
         - [ ] Upload to YT
         - [ ] Upload to Spreaker
         - [ ] Post Forum Post
         - [ ] Upload transcript to HackMD
         - [ ] Advertise
 
-        ### Archive
+        ### ◾Archive◾
          - type: textarea
           id: yt link
           attributes:
