@@ -57,10 +57,11 @@ body:
   - type: dropdown
     id: approved    
     attributes:
-      label: Approved?
+      label: Approved? (if unsure, set to Pending)
       options:
-        - ❌
-        - ✔️  
+        - ⏳ - Pending
+        - ❌ - No
+        - ✔️ - Yes
 
   - type: markdown
     attributes:
