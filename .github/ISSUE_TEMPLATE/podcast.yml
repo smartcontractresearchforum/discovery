@@ -8,9 +8,8 @@ body:
   - type: markdown
     attributes:
       value: |
-        "Please see [Episode Naming Convention](https://docs.google.com/document/d/1y67WcALXTBOXYoqNbW6LPHAz4-ZUq91ZOVtj7DujLUc/edit?usp=sharing)"
+        Please see [Episode Naming Convention](https://docs.google.com/document/d/1y67WcALXTBOXYoqNbW6LPHAz4-ZUq91ZOVtj7DujLUc/edit?usp=sharing)
         ### ◾Proposal Stage◾
-        Please see [Episode Naming Convention](https://docs.google.com/document/d/1y67WcALXTBOXYoqNbW6LPHAz4-ZUq91ZOVtj7DujLUc/edit?usp=sharing)   
       
   - type: dropdown
     id: type    
