@@ -1,8 +1,6 @@
 name: 📼 Add New Podcast
 description: Add proposal for a SCRF Interviews Podcast episode
 title: "📼 - Episode Name"
-  validations:
-      required: true 
 assignees:
   - eleventh19
   - ivanplazacic
