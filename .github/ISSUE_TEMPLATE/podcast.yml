@@ -1,6 +1,8 @@
 name: 📼 Add New Podcast
 description: Add proposal for a SCRF Interviews Podcast episode
 title: "📼 - Episode Name"
+  validations:
+      required: true 
 assignees:
   - eleventh19
   - ivanplazacic
@@ -51,7 +53,8 @@ body:
   - type: textarea
     id: pm
     attributes:
-      label: Project Manager (please remember to assign yourself to the issue)
+      label: Project Manager
+      description: Please remember to assign yourself to the issue
 
   - type: dropdown
     id: approved    
