@@ -1,8 +1,9 @@
 name: 📼 Add New Podcast
-description: Add an event to the SCRF calendar
+description: Add proposal for a SCRF Interviews Podcast episode
 title: "📼 - New Event"
 assignees:
-  - SirAh0
+  - eleventh19
+  - ivanplazacic
 body:
   - type: markdown
     attributes:
@@ -57,7 +58,7 @@ body:
   - type: textarea
     id: pm
     attributes:
-      label: ◾PM◾
+      label: ◾Project Manager (please remember to assign yourself to the issue)◾
 
   - type: dropdown
     id: approved    
@@ -65,9 +66,7 @@ body:
       label: Approved?
       options:
         - ❌
-        - ✔️
-    validations:
-      required: true    
+        - ✔️  
 
   - type: markdown
     attributes:
@@ -106,6 +105,15 @@ body:
         - [ ] Advertise
 
         **Archive**
+        - type: textarea
+        id: yt link
+        attributes:
+          label: ◾YouTube public link◾
+          
+        - type: textarea
+        id: sp link
+        attributes:
+          label: ◾Spreaker public link◾
 
 
 
