@@ -9,7 +9,7 @@ body:
     attributes:
       value: |
         ### Proposal Stage
-        Please see [Episode Naming Convention](https://docs.google.com/document/d/1y67WcALXTBOXYoqNbW6LPHAz4-ZUq91ZOVtj7DujLUc/edit?usp=sharing)
+        Please see [Episode Naming Convention](https://docs.google.com/document/d/1y67WcALXTBOXYoqNbW6LPHAz4-ZUq91ZOVtj7DujLUc/edit?usp=sharing)   
       
   - type: dropdown
     id: type    
@@ -98,16 +98,15 @@ body:
         - [ ] Advertise
 
         **Archive**
-   - type: textarea
+         - type: textarea
           id: yt link
           attributes:
            label: ◾YouTube public link◾
           
-   - type: textarea
+         - type: textarea
           id: sp link
           attributes:
             label: ◾Spreaker public link◾
-
 
 
 
