@@ -42,6 +42,7 @@ body:
     id: guest-names
     attributes:
       label: Guest Names
+      description: Please, make sure that you have entered correct guest names along with any associated titles
 
   - type: textarea
     id: host-names
