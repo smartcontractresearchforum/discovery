@@ -1,0 +1,16 @@
+name: 🛰️ - Add new Socials
+description: Add an event to the SCRF calendar
+title: "🛰️ - Add New Socials"
+assignees:
+  - SirAh0
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this new user form!
+
+# cadence [ Weekly, Daily, Monthly, Quarterly, Annually ]
+# Suggested Date: Input
+# Post Type: [ Topical, Research Pulse, Forum Content, Awards, SCRF Content, Events, SCRF Showcase ]
+# Socials Channel: [ Twitter, LinkedIn, Facebook, YouTube ]
+

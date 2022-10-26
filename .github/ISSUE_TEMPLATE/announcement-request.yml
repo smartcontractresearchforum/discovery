@@ -1,0 +1,45 @@
+name: 📣Announcement - Request
+description: If you have something to share with the SCRF community let us know!
+title: "[📣Announcement]- <add name here> "
+labels: [announcement]
+assignees:
+  - SirAh0
+body:
+  - type: markdown
+    attributes:
+      value: |        
+        ## Review Process
+        When a request has been created it will be added to the [project board](https://github.com/orgs/smartcontractresearchforum/projects/32/views/12) and you can watch the progress of its approval there. 
+
+        Once the request has been approved it will be moved into the `🚀Ready` column on the project board.
+
+        ## Publishing
+        Once the publish date is reached and the announcement is approved then the approriate team member will make the post and it will then be set to `✅ Published` status.
+
+  - type: input
+    id: publish-date
+    attributes:
+      label: Publish Date
+      description: Indicate the date when the announcement should be published.
+    validations:
+      required: true           
+
+  - type: input
+    id: url
+    attributes:
+      label: Highlight URL
+      description: If there is a specific URL to highlight as a call to action
+  
+  - type: input
+    id: logo
+    attributes:
+      label: Logo URL
+      description: URL to a logo image asset if there is one to use
+
+  - type: textarea
+    id: announcement
+    attributes:
+      label: Announcement
+      description: Body of the announcement
+    validations:
+      required: true

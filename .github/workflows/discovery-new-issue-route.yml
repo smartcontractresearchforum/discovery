@@ -1,0 +1,38 @@
+name: Discovery - New Issue Route
+
+on:
+  issues:
+    types: [opened]
+
+env:
+  gh_organization: smartcontractresearchforum
+  pb_calendar_id:  30
+  pb_messaging_id: 41
+  pb_bounties_community_id: 55
+  gh_project_token: ${{ secrets.DISCOVERY_ISSUE_PB_PAT }}
+  issue_id: ${{ github.event.issue.number }}  
+
+jobs:
+  add-to-calendar:    
+    runs-on: ubuntu-latest
+    if: contains( github.event.issue.title, '📅')
+    steps:    
+      - name: Add To Project Boards
+        uses: leonsteinhaeuser/project-beta-automations@v1.2.1 
+        with:
+          gh_token: ${{ env.gh_project_token }}
+          organization: ${{ env.gh_organization }}
+          project_id: ${{ env.pb_calendar_id }}
+          resource_node_id: ${{ github.event.issue.node_id }}                
+
+  announcement:
+    runs-on: ubuntu-latest
+    if: contains( github.event.issue.title, '📣Announcement')
+    steps:    
+      - name: Add To Project Boards
+        uses: leonsteinhaeuser/project-beta-automations@v1.2.1         
+        with:
+          gh_token: ${{ env.gh_project_token }}
+          organization: ${{ env.gh_organization }}
+          project_id: ${{ env.pb_messaging_id }}
+          resource_node_id: ${{ github.event.issue.node_id }}  
